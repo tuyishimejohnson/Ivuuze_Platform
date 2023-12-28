@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/14834.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 20vw;
+
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(37, 36, 36);
+}
+
