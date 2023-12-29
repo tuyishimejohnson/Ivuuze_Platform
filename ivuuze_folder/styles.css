@@ -21,7 +21,11 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 20px 40px;
+    margin: 10px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .logo img {
@@ -85,5 +89,24 @@ body {
     width: 100%;
     padding: 4%;
     border-radius: 10px;
+}
+
+.features {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 20px;
+    column-gap: 4vw;
+    row-gap: 4vw;
+}
+
+.features h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.the-features p {
+    font-size: 1.6em;
+    color: rgb(188, 185, 185);
 }
 
