@@ -8,24 +8,82 @@
     <title>Ivuuze</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header">
+
+        <nav class="Header">
             <div class="logo">
-                <img src="images/Icon (4).png" alt="Logo">
+                <img src="images/Icon (4).png" alt="">
             </div>
-    
-            <div class="navigation">
-                
-                <a href="#">Home</a>
-                <a href="#about">About</a>
-                <a href="#features">Features</a>
-                <a href="">Get in Touch</a>
-            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section>
         <div class="description">
             <p>We are providing a sustainable <br>solution to connect Patients <br>with the Community Health Workers.</p>
         </div>
+
+        <div class="select-location">
+            <form action="">
+                <label for="province">Province</label>
+                <select name="province" id="province">
+                    <option value="" disabled selected>Select the province</option>
+                    <option value="North">Northern</option>
+                    <option value="North">Southern</option>
+                    <option value="North">Eastern</option>
+                    <option value="North">Western</option>
+                    <option value="North">Kigali City</option>
+                </select>
+
+            </form>
+
+            <form action="">
+                <label for="district">District</label>
+                <select name="district" id="district">
+                    <option value="" disabled selected>Select the district</option>
+                    <option value="Nyarugenge">Nyarugenge</option>
+                    <option value="Gatsibo">Gatsibo</option>
+                    <option value="Rulindo">Rulindo</option>
+                    <option value="Nyaruguru">Nyaruguru</option>
+                    <option value="Kayonza">Kayonza</option>
+                </select>
+            </form>
+
+            <form action="">
+                <label for="sector">Sector</label>
+                <select name="sector" id="sector">
+                    <option value="" disabled selected>Select the sector</option>
+                    <option value="Base">Base</option>
+                    <option value="Kanyinya">Kanyinya</option>
+                    <option value="Rukara">Rukara</option>
+                    <option value="Gitoki">Gitoki</option>
+                    <option value="Kibeho">Kibeho</option>
+                </select>
+            </form>
+
+            <form action="">
+                <label for="cell">Cell</label>
+                <select name="cell" id="cell">
+                    <option value="" selected disabled>Select the cell</option>
+                    <option value="Taba">Taba</option>
+                    <option value="Cyohoha">Cyohoha</option>
+                    <option value="Kabeza">Kabeza</option>
+                    <option value="Karenge">Karenge</option>
+                    <option value="Ruyenzi">Ruyenzi</option>
+                </select>
+            </form>
+            
+        </div>
+
+        <div class="enter">
+            <button type="submit">Enter</button>
+        </div>
+        
     </section>
 
     <section id="about">
@@ -115,7 +173,6 @@
           ></iframe>
             </div>
         </div>
-       
     </section>
     <script src="scripts.js"></script>
 </body>
